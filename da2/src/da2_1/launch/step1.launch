@@ -1,4 +1,0 @@
-<launch>
-    <node pkg = "da2_1" name = "pub_cmd_vel" type="pub_cmd_vel"/>
-    <node pkg = "da2_1" name = "controller" type="controller"/>
-</launch>
