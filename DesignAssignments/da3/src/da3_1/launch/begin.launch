@@ -1,0 +1,34 @@
+<launch>
+    <node
+        pkg = "plotjuggler"
+        name = "plotjuggler"
+        type = "plotjuggler"
+    />
+    <node 
+        pkg = "turtlesim" 
+        name = "turtlesim" 
+        type = "turtlesim_node"
+    />
+    <node
+        pkg="rosservice"
+        name="spawn_tintin"
+        type="rosservice"
+        args="call /spawn '5.5' '5.5' '0.0' 'tintin'"
+    />
+    <node
+        pkg="rosservice"
+        name="kill_turtle1"
+        type="rosservice"
+        args="call /kill 'turtle1'"
+    />
+    <node 
+        pkg = "da3_1" 
+        name = "turtle_motion" 
+        type="turtle_motion"
+    />
+    <node 
+        pkg = "da3_1" 
+        name = "command_pub" 
+        type="command_pub"
+    />
+</launch>
