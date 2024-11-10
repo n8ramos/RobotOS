@@ -1,0 +1,19 @@
+<launch>
+    <node 
+        pkg = "da4_2" 
+        name = "imu_node" 
+        type="imu_node"
+    />
+    <node
+        pkg="rviz"
+        name="rviz"
+        type="rviz"
+        args="-d $(find da4_2)/rviz/config.rviz"
+    />
+    />
+    <node
+        pkg="rosserial_python"
+        name="read_STM"
+        type="serial_node.py"
+    />
+</launch>

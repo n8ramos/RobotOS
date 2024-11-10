@@ -1,0 +1,19 @@
+<launch>
+    <node
+        pkg="rviz"
+        name="rviz"
+        type="rviz"
+        args="-d $(find da4_1)/rviz/config.rviz"
+    />
+    <node
+        pkg="rosserial_python"
+        name="read_STM"
+        type="serial_node.py"
+    />
+    <node
+        pkg="tf2_ros"
+        name="set_link"
+        type="static_transform_publisher"
+        args="0 0 0 0 0 0 1 map us_frame"
+    />
+</launch>
