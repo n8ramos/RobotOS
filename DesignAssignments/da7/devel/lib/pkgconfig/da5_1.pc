@@ -1,0 +1,8 @@
+prefix=/home/quinn/DesignAssignments/da7/devel
+
+Name: da5_1
+Description: Description of da5_1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

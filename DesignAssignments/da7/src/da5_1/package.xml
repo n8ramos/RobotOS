@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>da5_1</name>
+  <version>0.0.0</version>
+  <description>Assignment 5</description>
+
+  <maintainer email="frady@unlv.nevada.edu">Quinn Frady</maintainer>
+  <maintainer email="ramosn8@unlv.nevada.edu">Nathaniel Ramos</maintainer>
+
+  <license>UNLV</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+
+  <build_export_depend>roscpp</build_export_depend>
+
+  <exec_depend>roscpp</exec_depend>
+
+  <export>
+  </export>
+</package>

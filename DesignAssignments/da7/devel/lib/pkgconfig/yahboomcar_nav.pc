@@ -1,0 +1,8 @@
+prefix=/home/quinn/DesignAssignments/da7/devel
+
+Name: yahboomcar_nav
+Description: Description of yahboomcar_nav
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

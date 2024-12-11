@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- keyboard node -->
+  <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" args="cmd_vel:=/robot_diff_drive_controller/cmd_vel" name="keyboard_drive"/>
+
+</launch>
